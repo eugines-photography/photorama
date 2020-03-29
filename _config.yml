@@ -1,14 +1,14 @@
 # Site settings
-title: PHOTORAMA
+title: Eugine Photography
 email: ""
-description: "Photo Journal"
+description: "Photo Gallery"
 url: "https://eugines-photography.github.io"
 baseurl: "/photorama"
 instagram_username: ""
-github_username:  ""
-deviantart_username: ""
-flickr_username: ""
-discus_shortname: ""
+# github_username:  ""
+# deviantart_username: ""
+# flickr_username: ""
+# discus_shortname: ""
 share: true
 
 # Owner/author information
@@ -16,7 +16,7 @@ owner:
   name:   Eugine
   avatar: avatar.png
   favicon: favicon.ico
-  info: photography website template
+  info: gallery of Eugine's photos
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
@@ -32,8 +32,8 @@ comments :
 # Internal nav
 nav:
   - GALLERY: "https://eugines-photography.github.io/photorama/gallery/"  
-  - JOURNAL: "https://eugines-photography.github.io/photorama/journal/"
   - ABOUT: "https://eugines-photography.github.io/photorama/about/"
+  # - JOUNRAL: "https://eugines-photography.github.io/photorama/journal/"
 
 # All translation keys
 translations:
