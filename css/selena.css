@@ -49,13 +49,9 @@ figure.effect-selena:hover p {
 	transform: perspective(1000px) rotate3d(1,0,0,0);
 }
 
-@media (max-width: 767px) {
-	figure.effect-selena figcaption,
-	figure.effect-selena figcaption .entry-summary,
-	figure.effect-selena figcaption h3 {
+@media screen and (max-width: 640px) {
+	.masonry-gallery .gallery-caption .entry-summary {
 	  opacity: 1;
-	  visibility: visible;
-	  transform: none;
 	}
-  }
+}
   
