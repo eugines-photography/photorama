@@ -48,3 +48,23 @@ figure.effect-selena:hover p {
 	-webkit-transform: perspective(1000px) rotate3d(1,0,0,0);
 	transform: perspective(1000px) rotate3d(1,0,0,0);
 }
+
+@media (max-width: 767px) {
+	.gallery .effect-selena figcaption,
+	.gallery .effect-selena:hover figcaption {
+	  opacity: 1;
+	  visibility: visible;
+	  transform: none;
+	}
+  
+	.gallery .effect-selena figcaption h3 {
+	  opacity: 1;
+	  visibility: visible;
+	  transform: none;
+	}
+  
+	.gallery .effect-selena figcaption::before {
+	  opacity: 1;
+	  transform: none;
+	}
+  }
