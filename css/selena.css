@@ -50,21 +50,12 @@ figure.effect-selena:hover p {
 }
 
 @media (max-width: 767px) {
-	.gallery .effect-selena figcaption,
-	.gallery .effect-selena:hover figcaption {
+	figure.effect-selena figcaption,
+	figure.effect-selena figcaption .entry-summary,
+	figure.effect-selena figcaption h3 {
 	  opacity: 1;
 	  visibility: visible;
-	  transform: none;
-	}
-  
-	.gallery .effect-selena figcaption h3 {
-	  opacity: 1;
-	  visibility: visible;
-	  transform: none;
-	}
-  
-	.gallery .effect-selena figcaption::before {
-	  opacity: 1;
 	  transform: none;
 	}
   }
+  
