@@ -50,8 +50,8 @@ figure.effect-selena:hover p {
 }
 
 @media screen and (max-width: 640px) {
-	.masonry-gallery .gallery-caption .entry-summary {
-	  opacity: 1;
+	body.gallery .masonry-gallery .gallery-item .gallery-caption .entry-summary {
+	  opacity: 1 !important;
+	  visibility: visible !important;
 	}
 }
-  
